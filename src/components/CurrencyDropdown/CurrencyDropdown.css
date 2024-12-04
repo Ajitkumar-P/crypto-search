@@ -1,0 +1,31 @@
+.currency-dropdown {
+  margin: 10px 0;
+  display: inline-block;
+  position: relative;
+}
+
+.currency-select {
+  padding: 4px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 12px;
+}
+
+.currency-select:hover {
+  border-color: #888;
+}
+
+.currency-select:focus {
+  border-color: #555;
+  box-shadow: 0 0 5px rgba(85, 85, 85, 0.5);
+}
+.currency-dropdown {
+  margin-bottom: 12px;
+}
